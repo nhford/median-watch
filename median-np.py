@@ -341,5 +341,5 @@ styled_table = add_row_styles(table_html)
 table = HTML(styled_table)
 # with open(f"output/{datetime.now().strftime('%Y-%h-%d-%H:%M')}.html", "w") as file:
 #     file.write(table.data)
-with open(f"current.html", "w") as file:
+with open(f"index.html", "w") as file:
     file.write(table.data)
